@@ -1,0 +1,29 @@
+.auth-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #2b5876, #4e4376);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-card {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+.auth-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.auth-card button {
+  width: 100%;
+  padding: 10px;
+  background: #4e4376;
+  color: white;
+  border: none;
+}
