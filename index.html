@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timetable Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <h1>Timetable Generator</h1>
+
+
+        <div class="form-section">
+            <label>Subjects (comma separated):</label>
+            <input type="text" id="subjects" placeholder="e.g. Math, Physics, Chemistry">
+
+
+            <label>Teachers (comma separated):</label>
+            <input type="text" id="teachers" placeholder="e.g. Mr.A, Ms.B, Mr.C">
+
+
+            <label>Rooms (comma separated):</label>
+            <input type="text" id="rooms" placeholder="e.g. Room1, Lab2, Room3">
+
+
+            <label>Days (comma separated):</label>
+            <input type="text" id="days" value="Monday,Tuesday,Wednesday,Thursday,Friday">
+
+
+            <label>Periods per Day:</label>
+            <input type="number" id="periods" value="6" min="1">
+
+
+            <button onclick="generateTimetable()">Generate Timetable</button>
+        </div>
+
+
+        <div class="output-section">
+            <h2>Generated Timetable</h2>
+            <div id="timetable"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
